@@ -34,7 +34,7 @@ function update(){
         <th scope="row">${index + 1}</th>
         <td>${element[0]}</td>
         <td>${element[1]}</td> 
-        <td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Delete</button></td> 
+        <td><button class="btn btn-sm btn-success" onclick="deleted(${index})">Delete</button></td> 
         </tr>`; 
     });
     tableBody.innerHTML = str;
