@@ -11,6 +11,12 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>TODOs List</title>
+
+    <!-- <style>
+        .btn-primary{
+    background-color: #8064A2 !important;
+}
+    </style> -->
 </head>
 
 <body>
@@ -68,8 +74,8 @@
                 <label for="description">Description</label>
               </div>
 
-              <button   id="add" class="btn btn-primary">Add to list</button>
-              <button  id="clear" class="btn btn-primary" onclick="clearStorage()">Clear list</button>
+              <button   id="add" class="btn btn-success">Add to list</button>
+              <button  id="clear" class="btn btn-danger" onclick="clearStorage()">Clear list</button>
         </form>
 
         <div id="items" class="my-5">
@@ -88,7 +94,7 @@
                     <th scope="row">1</th>
                     <td>Coffee</td>
                     <td>Buy a coffee from starbucks</td>
-                    <td><button class="btn btn-sm btn-primary" onclick="deleted($index)">Delete</button></td>
+                    <td><button class="btn btn-sm btn-info" onclick="deleted($index)">Delete</button></td>
                   </tr>
                 </tbody>
               </table>
